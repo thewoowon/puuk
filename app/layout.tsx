@@ -7,15 +7,15 @@ import BloodCanvas from "@/components/effect/BloodCanvas";
 export const metadata: Metadata = {
   title: "푹 - 빠질 수 밖에 없는 일상 속 괴담",
   description: "빠질 수 밖에 없는 일상 속 괴담, 푹",
-  metadataBase: new URL("https://puuk.io"),
+  metadataBase: new URL("https://puuk.vercel.app"),
   openGraph: {
     type: "website",
     locale: "ko_KR",
-    url: "https://puuk.io",
+    url: "https://puuk.vercel.app",
     siteName: "푹",
     images: [
       {
-        url: "https://puuk.io/og-image.jpg",
+        url: "https://puuk.vercel.app/og-image.png",
         width: 600,
         height: 314,
         alt: "푹",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "푹",
     description: "빠질 수 밖에 없는 일상 속 괴담, 푹",
     images: {
-      url: "https://puuk.io/og-image.jpg",
+      url: "https://puuk.vercel.app/og-image.png",
       alt: "푹",
     },
   },
