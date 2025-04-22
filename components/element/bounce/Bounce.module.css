@@ -13,7 +13,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #748fee;
+  background-color: #990000;
   opacity: 1;
   animation: sk-bounce 2s infinite ease-in-out;
 }
@@ -27,12 +27,12 @@
   100% {
     transform: scale(0);
     opacity: 1;
-    background-color: #748fee;
+    background-color: #990000;
   }
   50% {
     transform: scale(1);
     opacity: 0;
-    background-color: #a0b3f3;
+    background-color: #bd2d2d;
   }
 }
 
