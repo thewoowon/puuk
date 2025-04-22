@@ -97,7 +97,7 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
     setIsLoading(false); // 모든 초기화가 끝난 후 로딩 상태를 false로 설정
   }, []);
 
-  if (true) {
+  if (isLoading) {
     return (
       <div
         className="root-container"
