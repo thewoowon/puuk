@@ -1,0 +1,35 @@
+.doorContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.door {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: #920000;
+  transition: transform 2s ease-in-out;
+}
+
+.leftDoor {
+  left: 0;
+  transform: translateX(0);
+  border-right: 0.5px solid #333;
+}
+
+.rightDoor {
+  right: 0;
+  transform: translateX(0);
+  border-left: 0.5px solid #333;
+}
+
+.leftDoorOpen {
+  transform: translateX(-100%);
+}
+
+.rightDoorOpen {
+  transform: translateX(100%);
+}
