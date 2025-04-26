@@ -16,6 +16,7 @@ const Background = () => {
         willChange: "transform",
         pointerEvents: "none",
         // Optional: Add a slight animation effect
+        // Optional: og image
       }}
     ></div>
   );
