@@ -12,9 +12,9 @@ const nextConfig = withPWA({
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'api.puuk.io',
+        hostname: 'api.puuk.in',
         port: '',
-        pathname: '/news/image/**/*',
+        pathname: '/**/*',
       },
       {
         protocol: 'https',
