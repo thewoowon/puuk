@@ -4,6 +4,7 @@ import styled from "@emotion/styled";
 import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
 import { useEffect, useState } from "react";
+import { BannerClient } from "@/components/module/Banner/assets";
 
 const title: {
   [key: string]: string;
@@ -31,7 +32,7 @@ export default function StoryPage({ slug }: { slug: string }) {
 
   return (
     <Main>
-      <h1>{title[slug as string]}</h1>
+      <BannerClient imageName={slug} />
       <ReactMarkdown remarkPlugins={[gfm]}>{markdown}</ReactMarkdown>
     </Main>
   );
