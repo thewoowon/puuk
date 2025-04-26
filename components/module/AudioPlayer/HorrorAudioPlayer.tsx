@@ -8,7 +8,7 @@ function HorrorAudioPlayer({ sound }: { sound: string }) {
 
   useEffect(() => {
     const audio = new Audio(`/stream/audios/${sound}.mp3`);
-    audio.volume = 0.4;
+    audio.volume = 0.2;
     audio.loop = true;
     audioRef.current = audio;
 
