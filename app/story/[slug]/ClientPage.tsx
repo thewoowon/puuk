@@ -6,12 +6,12 @@ import gfm from "remark-gfm";
 import { useEffect, useState } from "react";
 import { BannerClient } from "@/components/module/Banner/assets";
 
-const title: {
-  [key: string]: string;
-} = {
-  purification: "정화",
-  noise: "소음",
-};
+// const title: {
+//   [key: string]: string;
+// } = {
+//   purification: "정화",
+//   noise: "소음",
+// };
 
 export default function StoryPage({ slug }: { slug: string }) {
   const [markdown, setMarkdown] = useState<string>("");
