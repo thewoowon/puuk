@@ -24,6 +24,7 @@ const Splash = () => {
         height={111}
         width={250}
         alt="puuk_copy"
+        priority
       />
     </Container>
   );

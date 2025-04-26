@@ -12,6 +12,7 @@ const Header = () => {
           height={50}
           src={"/assets/images/puuk_logo.png"}
           alt="puuk_copy"
+          priority
         />
       </Link>
     </Container>
