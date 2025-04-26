@@ -7,12 +7,12 @@ import { useEffect, useState } from "react";
 import { BannerClient } from "@/components/module/Banner/assets";
 import { HorrorAudioPlayer } from "@/components/module/AudioPlayer";
 
-// const title: {
-//   [key: string]: string;
-// } = {
-//   purification: "정화",
-//   noise: "소음",
-// };
+const soundMap: {
+  [key: string]: string;
+} = {
+  purification: "sound1",
+  noise: "sound2",
+};
 
 export default function StoryPage({ slug }: { slug: string }) {
   const [markdown, setMarkdown] = useState<string>("");
@@ -33,7 +33,7 @@ export default function StoryPage({ slug }: { slug: string }) {
 
   return (
     <Main>
-      <HorrorAudioPlayer sound={"sound1"} />
+      <HorrorAudioPlayer sound={soundMap[slug]} />
       <BannerClient imageName={slug} />
       <ReactMarkdown remarkPlugins={[gfm]}>{markdown}</ReactMarkdown>
     </Main>
