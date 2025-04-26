@@ -138,7 +138,7 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
             margin: "0 auto",
             boxShadow: "0 0 20px 4px rgba(153, 0, 0, 0.6)",
             overflow: "hidden", // overflow를 auto로 변경
-            backgroundColor: "#fff",
+            backgroundColor: "#000000",
           }}
         >
           {loading && <div>로딩 중...</div>}
