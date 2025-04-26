@@ -1,10 +1,10 @@
 import styled from "@emotion/styled";
 
-const Banner1 = () => {
+const Banner2 = () => {
   return <Container></Container>;
 };
 
-export default Banner1;
+export default Banner2;
 
 const Container = styled.div`
   width: 100%;
@@ -14,7 +14,7 @@ const Container = styled.div`
   position: relative;
   border-radius: 12px;
   box-shadow: 0px 3px 20px 0 rgba(0, 0, 0, 0.04);
-  background-image: url("/assets/images/purification_banner.png");
+  background-image: url("/assets/images/noise_banner.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
