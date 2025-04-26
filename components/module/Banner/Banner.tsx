@@ -18,8 +18,8 @@ const Banner = () => {
     },
   };
 
-  const handleClick = () => {
-    router.push("/story");
+  const handleClick = (slug: string) => {
+    router.push(`/story/${slug}`);
   };
   return (
     <Container>
@@ -33,13 +33,18 @@ const Banner = () => {
         modules={[Autoplay, Pagination]}
         spaceBetween={20}
       >
-        <StyledSwiperSlide onClick={handleClick}>
+        <StyledSwiperSlide
+          onClick={() => {
+            handleClick("purification");
+          }}
+        >
           <Banner1 />
         </StyledSwiperSlide>
-        <StyledSwiperSlide onClick={handleClick}>
-          <Banner1 />
-        </StyledSwiperSlide>
-        <StyledSwiperSlide onClick={handleClick}>
+        <StyledSwiperSlide
+          onClick={() => {
+            handleClick("noise");
+          }}
+        >
           <Banner1 />
         </StyledSwiperSlide>
       </StyledSwiper>
