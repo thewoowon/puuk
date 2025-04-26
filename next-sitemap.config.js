@@ -1,7 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 
 module.exports = {
-  siteUrl: "https://puuk.io",
+  siteUrl: "https://puuk.in",
   changefreq: "daily",
   generateRobotsTxt: true,
   sitemapSize: 7000,
