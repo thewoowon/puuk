@@ -5,6 +5,7 @@ import ReactMarkdown from "react-markdown";
 import gfm from "remark-gfm";
 import { useEffect, useState } from "react";
 import { BannerClient } from "@/components/module/Banner/assets";
+import { HorrorAudioPlayer } from "@/components/module/AudioPlayer";
 
 // const title: {
 //   [key: string]: string;
@@ -32,6 +33,7 @@ export default function StoryPage({ slug }: { slug: string }) {
 
   return (
     <Main>
+      <HorrorAudioPlayer sound={"sound1"} />
       <BannerClient imageName={slug} />
       <ReactMarkdown remarkPlugins={[gfm]}>{markdown}</ReactMarkdown>
     </Main>
