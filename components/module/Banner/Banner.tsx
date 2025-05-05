@@ -6,7 +6,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "@styles/banner-swiper.css";
 import styled from "@emotion/styled";
 import { PaginationOptions } from "swiper/types";
-import { Banner1, Banner2 } from "./assets";
+import { Banner1, Banner2, Banner3, Banner4 } from "./assets";
 import { useRouter } from "next/navigation";
 
 const Banner = () => {
@@ -46,6 +46,20 @@ const Banner = () => {
           }}
         >
           <Banner2 />
+        </StyledSwiperSlide>
+        <StyledSwiperSlide
+          onClick={() => {
+            handleClick("monologue");
+          }}
+        >
+          <Banner3 />
+        </StyledSwiperSlide>
+        <StyledSwiperSlide
+          onClick={() => {
+            handleClick("riding");
+          }}
+        >
+          <Banner4 />
         </StyledSwiperSlide>
       </StyledSwiper>
     </Container>
