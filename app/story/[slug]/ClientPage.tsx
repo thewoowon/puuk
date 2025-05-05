@@ -12,6 +12,8 @@ const soundMap: {
 } = {
   purification: "sound1",
   noise: "sound2",
+  monologue: "sound3",
+  riding: "sound4",
 };
 
 export default function StoryPage({ slug }: { slug: string }) {
