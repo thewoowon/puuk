@@ -12,6 +12,16 @@ const storyMetaMap: Record<
     description: "…컥… 끽… 쓱… 밤마다 들려오는 소리",
     ogImage: "/og-images/noise.png",
   },
+  monologue: {
+    title: "독백",
+    description: "가질 수 없다면..말야, 어느 살인자의 독백",
+    ogImage: "/og-images/monologue.png",
+  },
+  riding: {
+    title: "승마",
+    description: "너무 생생한 꿈을 꾸고 말았다",
+    ogImage: "/og-images/noise.png",
+  },
 };
 
 export async function getStoryMeta(slug: string) {
